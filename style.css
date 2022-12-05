@@ -1,1 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Public+Sans:wght@300;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Public Sans", sans-serif
+}
+a{
+    text-decoration: none;
+    color:   hsl(233, 8%, 62%);
+    text-align: center;
+}
+a:hover { color: green;}
+nav{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem clamp(1rem,  6vw, 8rem);
+    position:relative;
+    width: 100%;
+}
+.btn{
+    background-color:  hsl(322, 100%, 66%);
+    color: #fff;
+    border-radius: 30px;
+    height: fit-content;
+    padding: .8rem 1.8rem;
+    font-size: 13px;
+    font-weight: 300;
+    border: none;
+    background-image: linear-gradient(to right, limegreen , cyan);
+}
+
+.lists{
+    display: flex;
+    width: 40%;
+    flex-flow: row nowrap;
+    justify-content: space-evenly ;
+}
+.next{
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    /* background-image: url('./images/bg-intro-desktop.svg'); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.div1{
+    margin-top: 2rem;
+    height: 2rem;
+    padding: 3rem 5rem;
+    /* margin-bottom: 10%; */
+}
+.mockups {
+    width: 50%;
+}
+.mockups img{
+    width: 100%;
+    margin-top: -10%;
+}
+h1{
+font-size: 2rem;
+font-weight: 400;
+color: hsl(233, 26%, 24%);
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(233, 8%, 62%);
+}
+.div1 h1{
+    padding-bottom: 1rem;
+    width: 40%;
+}
+.div1 p{
+    padding-bottom: 2rem;
+    width: 65%;
+}
+.why{
+    background-color: hsl(220, 16%, 96%);
+    margin-top: -5%;
+    padding-left: 7rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+}
+.why h1{
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    text-align: center;
+}
+.online{
+    padding-top: 3rem;
+}
+.online img{
+    padding-bottom: 2rem;
+}
+.online big{
+    display: block;
+    padding-bottom: 1rem;
+}
+.budget{
+    padding-top: 3rem;
+}
+.budget img{
+    padding-bottom: 2rem;
+}
+.budget big{
+    display: block;
+    padding-bottom: 1rem ;
+}
+.fast{
+    padding-top: 3rem;
+}
+.fast img{
+    padding-bottom: 2rem;
+}
+.fast big{
+    display: block;
+    padding-bottom: 1rem;
+}
+.open{
+    padding-top: 3rem;
+}
+.open img{
+    padding-bottom: 2rem;
+}
+.open big{
+    display: block;
+    padding-bottom: 1rem;
+}
