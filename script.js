@@ -1,5 +1,6 @@
 const openNav = document.getElementById("open");
-const ham = document.getElementsByClassName("ham");
-ham.addEventListener("click" , () => {
+const ham = document.getElementById("open-nav");
+ham.addEventListener("click" , (e) => {
+    openNav.style.display = "block";
     console.log("I am happy");
-} )
+})
